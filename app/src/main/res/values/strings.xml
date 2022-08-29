@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FavQs</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="don_t_have_an_account_yet">Don\'t have an Account yet?</string>
+    <string name="welcome_to_favqs">Welcome to FavQs</string>
+    <string name="username">Username</string>
+    <string name="sign_up_to_get_started">Sign Up to get started</string>
+    <string name="e_mail">E-mail</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an Account?</string>
+    <string name="share">Share</string>
+    <string name="favorites">Favorites</string>
+    <string name="upvotes">UpVotes</string>
+    <string name="downvotes">DownVotes</string>
+    <string name="tags">TAGS</string>
+    <string name="no_quotes_available_for_this_query">No quotes available for this query</string>
+    <string name="refresh">refresh</string>
+    <string name="missing_field">"Update missing field"</string>
+</resources>
