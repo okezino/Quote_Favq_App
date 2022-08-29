@@ -1,9 +1,8 @@
 package com.example.favqs.util
 
-import com.example.favqs.BuildConfig
 
 const val BASE_URL = "https://favqs.com/"
-const val API_KEY = BuildConfig.API_KEY
+const val API_KEY = "ebf49f5800bf615588d2f8ce39756ebb"
 
 const val MISSING_FIELD = "Update missing field"
 const val SUCCESS_ACCOUNT = "Account created Successfully"
