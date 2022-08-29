@@ -36,6 +36,7 @@ On clicking of the Random quote, we will view a well detailed screen of some of 
 ### Network Call & Serialization  : Retrofit and Gson
 ### Testing : Junit 4 and Mockito
 ### Animation : Navigation Component and Custom Animation
+### Architectural Design Pattern : Clean Architecture 
 
 
 
