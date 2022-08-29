@@ -7,7 +7,7 @@ This splash screen shows an animated Text field with two Randown quotes and imed
 <img src="https://user-images.githubusercontent.com/46386915/187205065-46a94de4-78bd-43cc-898e-e70b15fa71b2.png" width="300"/>
 
 ## LOGIN AND SIGNUP
-For New users with no account, we can navigate to the SIGN UP screen to create and Account, for successs Account creation, users will be dirrected back to the login for loging into the app
+For New users with no account, we can navigate to the SIGN UP screen to create an Account, on  successsful Account creation, users will be directed back to the login screen. 
 
 <img src="https://user-images.githubusercontent.com/46386915/187206577-07547268-8744-4326-bada-afe4f3ceda6a.png" width="300"/>______
 <img src="https://user-images.githubusercontent.com/46386915/187206642-83122f3c-ba41-4bfd-ae49-32bc1adf72a2.png" width="300"/>
@@ -26,6 +26,18 @@ On clicking of the Random quote, we will view a well detailed screen of some of 
 
 <img src="https://user-images.githubusercontent.com/46386915/187207887-ac763701-f3d3-4f36-8fc5-4423b4814cd9.png" width="300"/>______
 <img src="https://user-images.githubusercontent.com/46386915/187208108-eac5cffa-b86a-4c62-8186-efb570eeba52.png" width="300"/>
+
+### List of Implemetation done 
+
+- As a user, I want to see a random quote when I open the app.{Splash screen}
+- As a user, I want to be able to browse through a list of public quotes.{Home Screen}
+- As a user, I want to be able to search through public quotes.{Home Screen}
+- As a user, I want to see the contents and author of any displayed quote.{Home Screen}
+- As a user, I want to be able to log in with my existing FavQs account.{Login Screen}
+- As a user, I want to be able to tap on any displayed quote to see its details.{Home Screen -> Detail Screen}
+- As a user, I want to see the tags of any displayed quote.{Home Screen}
+- As a user, I want to be able to tap on a tag to see a list of matching quotes.{Home Screen -> filter by tapping on Tags}
+- As a user, I want to be able to sign up for a FavQs account.{Sign Up Screen}
 
 
 ## TECHNOLOGY
