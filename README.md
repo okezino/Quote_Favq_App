@@ -1,6 +1,6 @@
 # Quote_Favq_App
 
-This applications shows list of Random Inispiration quotes that can lighten your days, i will give you a tour guide on the application functionality 
+This applications shows list of Random Inispiration quotes that can lighten your days. using Api from https://favqs.com, i will give you a tour guide on the application functionality 
 
 ## SPLASH SCREEN 
 This splash screen shows an animated Text field with two Randown quotes and imediately users to the Login Screen 
