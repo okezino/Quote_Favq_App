@@ -3,6 +3,7 @@ package com.example.favqs.data.local
 object Quotes {
 
     val listOfQuotes = listOf(
+       "What a man can see while seating down, a young ball cant see standing  on a mountain",
        "Don't be afraid to take a big step.  You can't cross a chasm in two small jumps.",
        "I was passionate. I found something that I loved.",
        "Life is a great big canvas; throw all the paint you can at it.",

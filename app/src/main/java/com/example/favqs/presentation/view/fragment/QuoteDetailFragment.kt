@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.favqs.data.local.Images
 import com.example.favqs.databinding.FragmentQuoteDetailBinding
 import com.example.favqs.presentation.view.adapter.TagAdapter
@@ -48,7 +49,7 @@ class QuoteDetailFragment : Fragment() {
             upVoteCount.text = args.quote.upVotesCount.toString()
             favCount.text = args.quote.favoritesCount.toString()
             tagRecyclerView.adapter = tagAdapter
-            tagRecyclerView.layoutManager = GridLayoutManager(requireContext(), 3)
+            tagRecyclerView.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
             tagAdapter.setData(args.quote.tags)
         }
     }

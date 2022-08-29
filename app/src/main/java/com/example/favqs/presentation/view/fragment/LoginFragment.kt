@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.example.favqs.R
+import com.example.favqs.data.local.SharedPreferenceUtil
 import com.example.favqs.databinding.FragmentLoginBinding
 import com.example.favqs.domain.model.Login
 import com.example.favqs.domain.model.Resource
@@ -98,6 +99,7 @@ class LoginFragment : Fragment() {
                     val response = resource.data
                     response?.userToken?.let {
                         binding.loginProgressBar.showSnackBar(SUCCESS_SESSION)
+                        SharedPreferenceUtil.saveAuthTokenInSharedPref(requireContext(),it)
                         navigateToHomeScreen()
                     } ?: binding.loginProgressBar.showSnackBar("${resource.data?.message} ")
 
